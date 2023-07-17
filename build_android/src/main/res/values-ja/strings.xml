@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Application Navigation -->
+
+	<string name="about_play">Play!について</string>
+	<string name="about_play_emu">Play! PlayStation 2 Emulator</string>
+	<string name="about_play_version">バージョン：</string>
+	<string name="about_play_date">日付：</string>
+	<string name="about_play_founder">によって作成されました</string>
+
+	<string name="main_menu_settings">設定</string>
+	<string name="main_menu_addfolder">フォルダーを追加</string>
+	<string name="main_menu_about">詳細</string>
+	<string name="main_menu_exit">終了</string>
+
+	<string name="game_info">情報はありません</string>
+
+	<string name="search_games">ビルディングコレクション&#8230;</string>
+	<string name="search_games_msg">お待ちください&#8230;</string>
+	<string name="search_games_scanning">ゲームをスキャン&#8230;</string>
+	<string name="search_games_scan_folders">追加されたフォルダーをスキャン&#8230;</string>
+	<string name="search_games_fetching_titles">ゲームタイトルを取得&#8230;</string>
+	<string name="search_games_fetching">ゲームを取得&#8230;</string>
+	<string name="search_games_populating">画像を追加&#8230;</string>
+	<string name="updating_db">コレクションを更新&#8230;</string>
+
+	<string name="launch_game">ゲームの起動&#8230;</string>
+	<string name="launch_game_msg">お待ちください&#8230;</string>
+
+	<string name="navigation_drawer_open">ナビゲーションドロワーを開く</string>
+	<string name="navigation_drawer_close">ナビゲーションドロワーを閉じる</string>
+
+	<string name="menu_title_open">メニュー</string>
+	<string name="menu_title_shut">ゲーム</string>
+	<string name="menu_title_look">検索</string>
+
+	<string name="file_list_recent">最近</string>
+	<string name="file_list_homebrew">Homebrew</string>
+	<string name="file_list_default">未分類</string>
+
+	<string name="game_unavailable">このゲームは利用できません。\nリストから削除しますか？</string>
+	<string name="not_found">見つかりませんでした</string>
+	<string name="no_game_found_adapter">ゲームが見つかりません。\n\nメニューを開いて「フォルダーを追加」を選択してゲームを追加してください。</string>
+
+	<!-- Application Preferences -->
+
+	<string name="title_activity_settings">設定</string>
+
+	<string name="preferences_screen_emu">エミュレータの設定</string>
+
+	<string name="pref_emu_general">一般の設定</string>
+
+	<string name="pref_emu_general_fps_display_title">フレームおよび描画コールカウンターの表示</string>
+	<string name="pref_emu_general_fps_display_summary">有効にすると、&quot;1秒あたりのフレーム数&quot;（f/s）と&quot;1フレームあたりの描画回数&quot;（dc/f）の統計を画面に表示します。</string>
+
+	<string name="pref_emu_general_pad_display_title">バーチャルパッドを表示</string>
+	<string name="pref_emu_general_pad_display_summary">有効にすると、画面上にバーチャルコントローラーパッドを表示します</string>
+
+	<string name="pref_emu_general_limit_frame_rate_title">フレームレートの上限</string>
+	<string name="pref_emu_general_limit_frame_rate_summary">フレームレートをビデオリフレッシュレートに合わせます</string>
+
+	<string name="pref_emu_video">ビデオの設定</string>
+
+	<string name="pref_emu_video_gs_handler_title">GSハンドラー</string>
+
+	<string name="pref_emu_video_res_factor_title">分解能の設定</string>
+
+	<string name="pref_emu_video_widescreen_title">映像をワイドスクリーンにリサイズする</string>
+	<string name="pref_emu_video_widescreen_summary">ビデオを16:9の比率にリサイズします。</string>
+
+	<string name="pref_emu_video_force_bilinear_title">バイリニアフィルタリングを強制</string>
+	<string name="pref_emu_video_force_bilinear_summary">Forces usage of bilinear filtering on all textures</string>
+
+	<string name="pref_emu_video_presentation_mode_title">Presentation Mode</string>
+
+	<string name="pref_emu_audio">Audio Settings</string>
+
+	<string name="pref_emu_audio_enable_output_title">Enable Audio Output</string>
+	<string name="pref_emu_audio_enable_output_summary">Enables audio output</string>
+
+	<string name="pref_emu_audio_spublockcount_title">Buffer Size</string>
+
+	<string name="preferences_screen_ui">UIの設定</string>
+
+	<string name="preferences_ui">ストレージの設定</string>
+
+	<string name="pref_ui_rescan_all_title">ストレージを再スキャン</string>
+	<string name="pref_ui_rescan_all_summary">新しいゲームがあるかどうかを確認するためにストレージをスキャンします</string>
+
+	<string name="pref_ui_clear_unavailable_title">利用できないゲームを削除する</string>
+	<string name="pref_ui_clear_unavailable_summary">現在アクセスできないゲームをゲームリストから削除します</string>
+
+	<string name="pref_ui_reset_cache_title">キャッシュのリセット</string>
+	<string name="pref_ui_reset_cache_summary">保存されているカバー画像を削除します</string>
+
+	<string name="pref_ui_migrate_datafiles_title">データファイルの移行</string>
+	<string name="pref_ui_migrate_datafiles_summary">デバイス上のフォルダーからデータファイルを移行します</string>
+
+	<string name="preferences_theme">テーマの設定</string>
+
+	<string name="pref_title_theme_selection">テーマの選択</string>
+
+	<string-array name="pref_theme_selection_titles">
+		<item>オレンジ</item>
+		<item>ブルー (デフォルト)</item>
+		<item>ピンク</item>
+		<item>パープル</item>
+		<item>鴨の羽色</item>
+		<item>ダークパープル</item>
+		<item>グリーン</item>
+	</string-array>
+
+	<string-array name="pref_emu_video_gs_handler_entries">
+		<item>OpenGL</item>
+		<item>Vulkan (Experimental)</item>
+	</string-array>
+
+	<string-array name="pref_emu_video_res_factor_entries">
+		<item>1x</item>
+		<item>2x</item>
+		<item>4x</item>
+		<item>8x</item>
+	</string-array>
+
+	<string-array name="pref_emu_video_presentation_mode_entries">
+		<item>Fill Screen</item>
+		<item>Fit Screen(Default)</item>
+		<item>Original Size</item>
+	</string-array>
+
+	<string-array name="pref_emu_audio_spublockcount_entries">
+		<item>400</item>
+		<item>200</item>
+		<item>100</item>
+		<item>50</item>
+		<item>10</item>
+	</string-array>
+
+	<!-- Emulator Drawer -->
+
+	<string name="emulator_drawer_exit">Exit</string>
+	<string name="emulator_drawer_savestate">Save State</string>
+	<string name="emulator_drawer_loadstate">Load State</string>
+
+	<string name="emulator_save_state_ok">State saved successfully.</string>
+	<string name="emulator_save_state_fail">Couldn\'t save state.</string>
+
+	<string name="emulator_load_state_ok">State loaded successfully.</string>
+	<string name="emulator_load_state_fail">Couldn\'t load state.</string>
+
+	<!-- Error Reporting / Debugging -->
+
+	<string name="report_issue">Previous Crash Detected</string>
+
+	<string name="dismiss">Dismiss</string>
+	<string name="report">Report</string>
+
+	<string name="platform">Copying logcat content to clipboard\nPlease paste in the issue report</string>
+	<string name="log_saved">Log saved to \"Files Dir\" path</string>
+	<string name="no_recent_adapter">No recently played PS2 game found.</string>
+
+	<!-- Editor Menu -->
+	<string name="editor_menu_save">セーブ</string>
+	<string name="editor_menu_reset">リセット</string>
+	<string name="editor_menu_cancel">キャンセル</string>
+
+	<!-- Game Info Edit Activity -->
+	<string name="gameinfo_edit_activity_gametitle">Game Title</string>
+	<string name="gameinfo_edit_activity_gameoverview">Game Overview</string>
+	<string name="gameinfo_edit_activity_gamecover">Game Cover</string>
+	<string name="gameinfo_edit_activity_gamecover_change">Change</string>
+	<string name="gameinfo_edit_activity_gamecover_default">Default</string>
+
+	<string name="permission_dialog_title">Permission Request</string>
+	<string name="permission_dialog_summary">Play! needs storage access (read/write). Without it, Play! won\'t be able to find your games or save your progress.</string>
+
+	<!-- Data Files Migration -->
+	<string name="migration_title">Data Files Migration</string>
+	<string name="migration_selectfolder">Please select the location of the previous Data Files folder (usually located at the root of your device\'s storage and named \'Play Data Files\').</string>
+	<string name="migration_task_msg">Please wait&#8230;</string>
+
+</resources>
